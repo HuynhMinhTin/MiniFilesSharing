@@ -18,7 +18,7 @@
 	<!-- Map all requests to the DispatcherServlet for handling -->
 	<servlet-mapping>
 		<servlet-name>mini_sharing_files_servlet</servlet-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>/home</url-pattern>
 	</servlet-mapping>
    
       

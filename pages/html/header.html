@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mini File Sharing</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/layout-header-class.css">
+	<!-- jQuery -->
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<div class="row">
+			<div class="col logo">logo</div>
+			<div class="col-10 direction">
+				<div class="row">Name Team</div>
+				<div class="row">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link 1</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link 2</a>
+						</li>					  
+					</ul>
+				</div>
+			</div>	
+		</div>		
+	</header>
+	<!-- content -->
+
+	<main>
+		<!-- upload file -->
+		<div class="col">
+			<button type ="button" class="btn btn-outline-primary">
+				Plus
+			</button>
+		</div>
+		<!-- search nav -->
+		<div class="col-10">
+			<form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>			
+		</div>    	
+
+		<div class="row">
+			<!-- category -->		
+			<div class="col-2">
+				<h6 class="h6">category</h6>
+				<ul class="nav nav-pills flex-column">
+				  <li class="nav-item">
+				    <a class="nav-link active" href="#">category 1</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">category 2</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">category 3</a>
+				  </li>				  
+				</ul>
+			</div>
+			<!-- file list -->
+			<div class="col-10">
+				<div class="row">
+					<div class="col card">
+					  <img class="card-img-top" src="../image/file.png" alt="File 1">
+					  <div class="card-body">
+					    <h5 class="card-title">File title</h5>
+					    <p class="card-text">File comment</p>
+					    <a href="#" class="btn btn-primary">File details</a>
+					  </div>
+					</div>	
+				</div>			
+			</div>
+		</div>
+	</main>
+
+		
+	<!-- footer -->
+</body>
+</html>
